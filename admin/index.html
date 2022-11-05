@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ODOSPK Вход</title>
   <link rel="stylesheet" href="/src/css/app.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,25 +19,33 @@
           <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="w-full"
             alt="Phone image" />
         </div>
-        <form class="md:w-8/12 lg:w-2/5 lg:ml-20 p-3 xl:p-5 bg-slate-800 border-slate-600 border rounded-xl shadow-2xl">
+        <form class="md:w-8/12 lg:w-2/5 lg:ml-20 p-3 lg:p-5 bg-slate-800 border-slate-600 border rounded-xl shadow-xl">
           <div class="login__header">
             <h1 class="text-2xl font-bold text-slate-100">Добро пожаловать</h1>
-            <p class="sm:text-sm md:text-base 2xl:text-lg font-medium text-slate-300 mt-2">Для использования системы, пожалуйста, авторизуйтесь</p>
+            <p class="sm:text-sm md:text-base 2xl:text-lg font-medium text-slate-300 mt-1">Для использования системы,
+              пожалуйста, авторизуйтесь</p>
           </div>
           <div class="w-full mb-4 mt-7">
-            <label for="login__input" class="sm:text-base 2xl:text-lg form-label font-bold inline-block text-slate-100">Ваш логин</label>
-            <input type="text" class="sm:text-sm 2xl:text-base form-control block w-full mt-2 px-3 py-2.5 text-base font-normal text-slate-300 bg-slate-700 bg-clip-padding border border-solid border-slate-500 rounded-md transition ease-in-out m-0 focus:text-slate-300 focus:border-sky-600 focus:outline-none" id="login__input" placeholder="Userlogin" autocomplete="off" />
+            <label for="login__input"
+              class="sm:text-base 2xl:text-lg form-label font-bold inline-block text-slate-100">Ваш логин</label>
+            <input type="text"
+              class="sm:text-sm 2xl:text-base form-control block w-full mt-2 px-3 py-2.5 text-base font-normal text-slate-300 bg-slate-700 bg-clip-padding border border-solid border-slate-500 rounded-md transition ease-in-out m-0 focus:text-slate-300 focus:border-sky-600 focus:outline-none"
+              id="login__input" placeholder="Userlogin" autocomplete="off" />
           </div>
           <div class="mb-6">
-            <label for="password__input" class="sm:text-base 2xl:text-lg form-label font-bold inline-block text-slate-100">Ваш пароль</label>
-            <input type="password" class="sm:text-sm 2xl:text-base form-control block w-full mt-2 px-3 py-2.5 text-base font-normal text-slate-300 bg-slate-700 bg-clip-padding border border-solid border-slate-500 rounded-md transition ease-in-out m-0 focus:text-slate-300 focus:border-sky-600 focus:outline-none" id="password__input" placeholder="Userpassword" autocomplete="off" />
+            <label for="password__input"
+              class="sm:text-base 2xl:text-lg form-label font-bold inline-block text-slate-100">Ваш пароль</label>
+            <input type="password"
+              class="sm:text-sm 2xl:text-base form-control block w-full mt-2 px-3 py-2.5 text-base font-normal text-slate-300 bg-slate-700 bg-clip-padding border border-solid border-slate-500 rounded-md transition ease-in-out m-0 focus:text-slate-300 focus:border-sky-600 focus:outline-none"
+              id="password__input" placeholder="Userpassword" autocomplete="off" />
           </div>
           <div class="flex justify-between items-center mb-6">
             <div class="form-group form-check">
               <input type="checkbox"
                 class="form-check-input appearance-none h-4 w-4 border border-slate-600 rounded-sm bg-slate-800 checked:bg-sky-600 checked:border-sky-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                 id="remember__me" checked />
-              <label class="sm:text-sm 2xl:text-base form-check-label inline-block text-slate-100 cursor-pointer" for="remember__me">Запомнить меня</label>
+              <label class="sm:text-sm 2xl:text-base form-check-label inline-block text-slate-100 cursor-pointer"
+                for="remember__me">Запомнить меня</label>
             </div>
             <a href="/admin/password-restore/"
               class="text-sky-600 hover:text-sky-500 focus:text-sky-500 active:text-sky-700 duration-200 sm:text-sm 2xl:text-base transition ease-in-out">Забыли
@@ -52,4 +62,5 @@
   </section>
   <script src="/node_modules/tw-elements/dist/js/index.min.js"></script>
 </body>
+
 </html>

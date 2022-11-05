@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ODOSPK Заявки Обучение</title>
+  <link rel="stylesheet" href="/src/css/app.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-slate-900 p-4 h-screen">
+  <main class="content flex items-center h-full">
+    <aside class="menu h-full w-[17%] p-3 bg-slate-800 border border-slate-600 rounded-lg drop-shadow-md">
+      <h1 class="text-base leding-tight">Добро пожаловать</h1>
+      <a href="/admin/users/profile/"
+        class="user__profile flex items-center border border-slate-600 bg-slate-700 rounded-lg p-2 mt-3">
+        <img class="w-11 h-11 rounded-full" src="/src/img/avatars/user__img.jpg" alt="user__avatar">
+        <div class="user__data ml-3">
+          <h2 class="text-sm">Александр</h2>
+          <p class="text-[12px] text-slate-300">Администратор</p>
+        </div>
+      </a>
+      <h2 class="mt-4 text-base font-semibold ">Навигация</h2>
+      <div class="menu__nav flex flex-col justify-between h-[77%]">
+        <ul class="mt-2">
+          <li class="mb-2 last:mb-0">
+            <a href="/admin/requests/education/new/" class="menu__link menu__link-active">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M3.33337 16.25C3.33337 15.6974 3.55287 15.1675 3.94357 14.7768C4.33427 14.3861 4.86417 14.1666 5.41671 14.1666H16.6667"
+                  stroke="#f1f5f9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M5.41671 1.66663H16.6667V18.3333H5.41671C4.86417 18.3333 4.33427 18.1138 3.94357 17.7231C3.55287 17.3324 3.33337 16.8025 3.33337 16.25V3.74996C3.33337 3.19743 3.55287 2.66752 3.94357 2.27682C4.33427 1.88612 4.86417 1.66663 5.41671 1.66663V1.66663Z"
+                  stroke="#f1f5f9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <p class="ml-2 text-sm font-bold">Обучение</p>
+            </a>
+          </li>
+          <li class="mb-2 last:mb-0">
+            <a href="/admin/requests/calls/new/" class="menu__link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <path
+                  d="M16.4999 12.6899V14.9399C16.5008 15.1488 16.458 15.3556 16.3743 15.547C16.2907 15.7383 16.1679 15.9101 16.014 16.0513C15.8601 16.1926 15.6784 16.3001 15.4805 16.367C15.2826 16.4339 15.073 16.4587 14.8649 16.4399C12.5571 16.1892 10.3402 15.4006 8.39245 14.1374C6.58032 12.9859 5.04395 11.4496 3.89245 9.63745C2.62493 7.68085 1.83613 5.4532 1.58995 3.13495C1.57121 2.92755 1.59586 2.71852 1.66233 2.52117C1.72879 2.32382 1.83563 2.14247 1.97602 1.98867C2.11642 1.83487 2.2873 1.71198 2.47779 1.62784C2.66828 1.5437 2.87421 1.50015 3.08245 1.49995H5.33245C5.69643 1.49637 6.04929 1.62526 6.32527 1.8626C6.60125 2.09994 6.78151 2.42954 6.83245 2.78995C6.92742 3.51 7.10354 4.217 7.35745 4.89745C7.45836 5.16589 7.4802 5.45764 7.42038 5.73811C7.36056 6.01858 7.2216 6.27603 7.01995 6.47995L6.06745 7.43245C7.13512 9.31011 8.68979 10.8648 10.5675 11.9324L11.5199 10.9799C11.7239 10.7783 11.9813 10.6393 12.2618 10.5795C12.5423 10.5197 12.834 10.5415 13.1024 10.6424C13.7829 10.8964 14.4899 11.0725 15.21 11.1674C15.5743 11.2188 15.907 11.4024 16.1448 11.6831C16.3827 11.9638 16.5091 12.3221 16.4999 12.6899Z"
+                  stroke="#f1f5f9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <p class="ml-2 text-sm font-semibold">Звонки</p>
+            </a>
+          </li>
+          <li class="mb-2 last:mb-0">
+            <a href="/admin/statistics/visits/" class="menu__link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none">
+                <path d="M18.2219 20.3982V10.3982" stroke="#f1f5f9" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M12.2219 20.3982V4.39819" stroke="#f1f5f9" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M6.22192 20.3982V14.3982" stroke="#f1f5f9" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <p class="ml-2 text-sm font-semibold">Статистика</p>
+            </a>
+          </li>
+          <li class="mb-2 last:mb-0">
+            <a href="/admin/tasks/notes/" class="menu__link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M16.6666 5.83331H3.33329C2.41282 5.83331 1.66663 6.57951 1.66663 7.49998V15.8333C1.66663 16.7538 2.41282 17.5 3.33329 17.5H16.6666C17.5871 17.5 18.3333 16.7538 18.3333 15.8333V7.49998C18.3333 6.57951 17.5871 5.83331 16.6666 5.83331Z"
+                  stroke="#f1f5f9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M13.3333 17.5V4.16667C13.3333 3.72464 13.1577 3.30072 12.8451 2.98816C12.5326 2.67559 12.1087 2.5 11.6666 2.5H8.33329C7.89127 2.5 7.46734 2.67559 7.15478 2.98816C6.84222 3.30072 6.66663 3.72464 6.66663 4.16667V17.5"
+                  stroke="#f1f5f9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <p class="ml-2 text-sm font-semibold">Задачи</p>
+            </a>
+          </li>
+          <li class="mb-2 last:mb-0">
+            <a href="/admin/data/change/" class="menu__link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <path
+                  d="M9 6C12.7279 6 15.75 4.99264 15.75 3.75C15.75 2.50736 12.7279 1.5 9 1.5C5.27208 1.5 2.25 2.50736 2.25 3.75C2.25 4.99264 5.27208 6 9 6Z"
+                  stroke="#f1f5f9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M15.75 9C15.75 10.245 12.75 11.25 9 11.25C5.25 11.25 2.25 10.245 2.25 9" stroke="#f1f5f9"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M2.25 3.75V14.25C2.25 15.495 5.25 16.5 9 16.5C12.75 16.5 15.75 15.495 15.75 14.25V3.75"
+                  stroke="#f1f5f9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <p class="ml-2 text-sm font-semibold">Данные</p>
+            </a>
+          </li>
+          <li class="mb-2 last:mb-0">
+            <a href="/admin/users/" class="menu__link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M14.1667 17.5V15.8333C14.1667 14.9493 13.8155 14.1014 13.1904 13.4763C12.5653 12.8512 11.7174 12.5 10.8334 12.5H4.16671C3.28265 12.5 2.43481 12.8512 1.80968 13.4763C1.18456 14.1014 0.833374 14.9493 0.833374 15.8333V17.5"
+                  stroke="#f1f5f9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M7.49996 9.16667C9.34091 9.16667 10.8333 7.67428 10.8333 5.83333C10.8333 3.99238 9.34091 2.5 7.49996 2.5C5.65901 2.5 4.16663 3.99238 4.16663 5.83333C4.16663 7.67428 5.65901 9.16667 7.49996 9.16667Z"
+                  stroke="#f1f5f9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M19.1666 17.5V15.8333C19.1661 15.0948 18.9203 14.3773 18.4678 13.7936C18.0153 13.2099 17.3817 12.793 16.6666 12.6083"
+                  stroke="#f1f5f9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M13.3334 2.60834C14.0504 2.79192 14.6859 3.20892 15.1397 3.7936C15.5936 4.37827 15.8399 5.09736 15.8399 5.8375C15.8399 6.57765 15.5936 7.29674 15.1397 7.88141C14.6859 8.46609 14.0504 8.88309 13.3334 9.06667"
+                  stroke="#f1f5f9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <p class="ml-2 text-sm font-semibold">Пользователи</p>
+            </a>
+          </li>
+        </ul>
+        <a href="/admin/requests/education/new/?logout=yes" class="menu__link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none">
+            <path
+              d="M7.5 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V4.16667C2.5 3.72464 2.67559 3.30072 2.98816 2.98816C3.30072 2.67559 3.72464 2.5 4.16667 2.5H7.5"
+              stroke="#f1f5f9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M13.3334 14.1667L17.5 10L13.3334 5.83337" stroke="#f1f5f9" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M17.5 10H7.5" stroke="#f1f5f9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <p class="ml-2 text-sm">Выйти</p>
+        </a>
+      </div>
+    </aside>
+    <div class="content__main ml-4 w-full h-full rounded-xl border bg-slate-800 border-slate-600 p-3 drop-shadow-md">
+      <h2 class="text-xl font-bold">Заявки на обучение</h2>
+      <div class="upper__controls w-full mt-2 flex items-center justify-between">
+        <ul class="flex items-center">
+          <li class="mr-2 last:mr-0">
+            <a href="/admin/requests/education/new/" class="tab tab__active">Новые</a>
+          </li>
+          <li class="mr-2 last:mr-0">
+            <a href="/admin/requests/education/processed/" class="tab">Обработанные</a>
+          </li>
+          <li class="mr-2 last:mr-0">
+            <a href="/admin/requests/education/archived/" class="tab">Архивированные</a>
+          </li>
+          <li class="mr-2 last:mr-0">
+            <a href="/admin/requests/education/removed/" class="tab">Удаленные</a>
+          </li>
+        </ul>
+        <div class="flex justify-center">
+          <div class="xl:w-96 input-group relative flex flex-wrap items-stretch w-full">
+            <input type="search"
+              class="form-control relative flex-auto min-w-0 block w-full px-3 py-1 text-sm font-normal text-slate-500 bg-slate-700 bg-clip-padding border border-solid border-slate-600 rounded-md transition ease-in-out m-0 focus:text-slate-300 focus:bg-slate-700 focus:border-sky-500 focus:outline-none"
+              placeholder="Поиск по заявкам" aria-label="Search" aria-describedby="search__init">
+            <button
+              class="btn px-6 py-1 bg-sky-500 text-slate-100 font-medium text-xs leading-tight uppercase rounded-md shadow-md hover:bg-sky-400 hover:shadow-lg hover:shadow-sky-400/20 focus:bg-sky-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-sky-400 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+              type="button" id="search__init">
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="w-4" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="currentColor"
+                  d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                </path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="/node_modules/tw-elements/dist/js/index.min.js"></script>
+</body>
+
+</html>
